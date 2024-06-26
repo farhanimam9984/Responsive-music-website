@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body,
+html {
+  font-family: "Roboto", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+nav {
+  background-color: rgb(14, 14, 151);
+  height: 70px;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.logo {
+  font-size: 25px;
+  font-weight: 500;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  padding: 20px;
+}
+.navbar ul li {
+  padding: 0 20px;
+  font-size: 20px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+nav ul li:hover {
+  border-bottom: 2px solid white;
+  transition: 0.3s ease-in-out;
+}
+.hero {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-image: url(first_image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+}
+.mytunes {
+  font-size: 50px;
+  font-weight: bolder;
+  padding-top: 70px;
+}
+.hero-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  font-weight: bolder;
+  font-size: 25px;
+  color: white;
+}
+.hero-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+.hero-paragraph2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}
+.music-section {
+  background-color: rgb(10, 10, 85);
+  height: 100vh;
+  gap: 20px;
+}
+.music {
+  font-size: 25px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+.music-paragraph {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+  margin: 20px;
+}
+.music-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.music-button button {
+  padding: 10px;
+  background-color: orange;
+  font-size: 10px 15px;
+  color: white;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+.music-button:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+.music-paragraph2 {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+  margin: 20px;
+}
+.music-ipad img {
+  position: relative;
+  top: 400;
+  margin: -400;
+  padding-top: 80px;
+  padding-left: 250px;
+}
+.container {
+  padding-top: 600px;
+  display: grid;
+  place-items: center;
+  gap: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container-heading {
+  font-size: 25px;
+  font-weight: 500;
+}
+.container-paragraph {
+  font-size: 25px;
+}
+.secondary-button button {
+  background-color: rgb(7, 7, 84);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.secondary-button:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+.video-section {
+  background-image: url(video.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
+.video-heading {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding-top: 250px;
+  padding-bottom: 30px;
+}
+.video-paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  flex-direction: column;
+  color: white;
+}
+.gift-section {
+  display: flex;
+  justify-content: center;
+  margin: 100px 100px;
+  gap: 50px;
+}
+.gift-card img {
+  padding: 15px 0;
+}
+.gift-content h3 {
+  font-size: 25px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+.gift-content p {
+  font-size: 20px;
+  padding: 20px 0;
+  gap: 10px;
+}
+.last-button {
+  background-color: rgb(5, 5, 62);
+  color: white;
+  padding: 7px 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.video-button {
+  margin: 20px 0;
+}
+.video-button:hover {
+  opacity: 0.8;
+  transition: 0.2s ease-in-out;
+}
+.footer-upper {
+  background-color: rgb(6, 6, 80);
+  padding: 20px;
+}
+.footer-container {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+.footer-links h4 {
+  font-size: 20px;
+  padding: 8px 0;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+  margin-bottom: 10px;
+}
+.footer-links ul {
+  list-style: none;
+}
+.footer-links ul li {
+  padding: 2px 0;
+  font-size: 19px;
+  cursor: pointer;
+}
+.footer-links ul li:hover {
+  transition: 0.2s ease-in-out;
+}
+.footer-lower {
+  background-color: rgb(11, 11, 143);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 60px;
+  font-size: 19px;
+}
+@media (max-width: 1000px) {
+  .hero {
+    flex-direction: column;
+  }
+  .music-section{
+    flex-direction: column;
+  }
+  .music {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-upper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .gift-card {
+  
+    flex-direction: row;
+    
+  }
+  .footer-container{
+    flex-direction: row;
+  }
+}
